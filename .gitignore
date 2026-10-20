@@ -122,9 +122,11 @@ gradle-app.setting
 # Dependency directories
 node_modules/
 
-# gradle properties, due to Github token
-/gradle.properties
 
 # Ignore IDEA files
 .idea/
 local.properties
+
+# Eclipse/IDE build output and machine-specific Gradle JVM config
+bin/
+/gradle/gradle-daemon-jvm.properties
