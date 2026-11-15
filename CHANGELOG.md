@@ -1,3 +1,5 @@
+## [1.0.0-dev.2](https://github.com/Mandy54994/morphe-patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-11-15)
+
 ## 1.0.0-dev.1 (2026-10-20)
 
 ### ✨ New Features
