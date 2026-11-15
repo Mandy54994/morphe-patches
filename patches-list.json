@@ -1,30 +1,49 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0-dev.2",
+  "version": "1.0.0-dev.3",
   "patches": [
     {
-      "name": "Example Patch",
-      "description": "Example patch to start with.",
+      "name": "Unlock Premium",
+      "description": "Forces premium/subscribed state and disables provider premium gating.",
       "default": true,
       "category": null,
       "compatiblePackages": [
         {
-          "packageName": "com.example.app",
-          "name": "XYZ app",
+          "packageName": "dev.sasikanth.rss.reader",
+          "name": "Twine RSS Reader",
           "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#FF0045",
+          "apkFileType": null,
+          "appIconColor": null,
           "signatures": null,
           "targets": [
             {
-              "version": "2.0.0",
+              "version": "3.9.0",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
-            },
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock Premium",
+      "description": "Unlocks all PutMask premium features.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.putmask.facefilter",
+          "name": "PutMask",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
             {
-              "version": "1.0.2",
+              "version": "9.1.0",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
