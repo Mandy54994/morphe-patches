@@ -36,3 +36,10 @@ tasks {
         dependsOn("generatePatchesList")
     }
 }
+tasks.register("printPatcherClasspath") {
+    doLast {
+        configurations.compileClasspath.get().files
+            .filter { it.name.contains("morphe-patcher") }
+            .forEach { println("PATCHER JAR: ${it.absolutePath}") }
+    }
+}
